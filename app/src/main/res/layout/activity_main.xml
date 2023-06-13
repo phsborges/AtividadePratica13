@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="9dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextX"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Eixo X" />
+
+
+
+    <EditText
+        android:id="@+id/editTextY"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/editTextX"
+        android:enabled="false"
+        android:hint="Eixo Y" />
+
+    <EditText
+        android:id="@+id/editTextZ"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/editTextY"
+        android:hint="Eixo Z"
+        android:enabled="false" />
+
+</RelativeLayout>
